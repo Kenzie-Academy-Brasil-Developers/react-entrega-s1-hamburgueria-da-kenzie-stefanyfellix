@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
+@media screen and (max-width: 865px) {
+  .list-itens {
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    list-style: none;
+    overflow-x: scroll;
+  }
+  .item {
+    width: 400px;
+    height: 364px;
+    border: 2px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  .background-img {
+    background-color: #f5f5f5;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .img-item {
+    width: 166px;
+    height: 166px;
+  }
+  .nome-item {
+    color: #333333;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .categoria-item {
+    color: #828282;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+  }
+  .preço-item {
+    color: #27ae60;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+  }
+  .botão-adicionar {
+    height: 40px;
+    background-color: #27ae60;
+    border: 2px solid #27ae60;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+  }
+  .botão-adicionar:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+}
+@media screen and (min-width: 865px) and (max-width: 1109px) {
+  .list-itens {
+    margin: 0px;
+    padding: 0px;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    list-style: none;
+  }
+  .item {
+    width: 300px;
+    height: 364px;
+    border: 2px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  .background-img {
+    background-color: #f5f5f5;
+    width: 250;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .img-item {
+    width: 166px;
+    height: 166px;
+  }
+  .nome-item {
+    color: #333333;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .categoria-item {
+    color: #828282;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+  }
+  .preço-item {
+    color: #27ae60;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+  }
+  .botão-adicionar {
+    height: 40px;
+    background-color: #27ae60;
+    border: 2px solid #27ae60;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+  }
+  .botão-adicionar:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+}
+@media screen and (min-width: 1109px) {
+  .list-itens {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    margin: 0px;
+  }
+  .item {
+    width: 300px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+  .background-img {
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+  }
+  .img-item {
+    width: 166px;
+    height: 166px;
+  }
+  .nome-item {
+    color: #333333;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .categoria-item {
+    color: #828282;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+  }
+  .preço-item {
+    color: #27ae60;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+  }
+  .botão-adicionar {
+    height: 40px;
+    background-color: #27ae60;
+    border: 2px solid #27ae60;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+  }
+  .botão-adicionar:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+}
