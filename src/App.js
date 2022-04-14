@@ -37,9 +37,11 @@ function App() {
   const handleClick = (newProduct) => {
     //maneira ultilizando o find
     //const newProduct = listProducts.find((produto) => produto.id === productId);
-    setCurrentSale([...currentSale, newProduct]);
+    if (currentSale.includes(newProduct) === false) {
+      setCurrentSale([...currentSale, newProduct]);
+    }
   };
-
+  console.log(currentSale);
   const deleteItem = (item) => {
     const filter = currentSale.filter((produto) => {
       return produto !== item;
